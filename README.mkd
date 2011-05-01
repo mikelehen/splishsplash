@@ -1,0 +1,20 @@
+Overview
+--------
+Splish Splash is a pair of executables (splish and splash) that stream the audio from one Vista+ PC to another. Play music on your laptop and have it come out the speakers of your home theater PC!
+
+Splish Splash consists of two executables:
+
+* splish.exe captures the audio output from one PC and sends it to another PC on the network.
+* splash.exe receives audio from a PC running splish.exe and plays it on its own speakers.
+
+Basic Usage
+-----------
+On the destination PC (e.g. your home theater PC with nice speakers) just run splash.exe:
+
+    C:\splishsplash> splash.exe 
+
+On the source PC (e.g. your laptop where you're going to play music files using Windows Media Player) run splish.exe with the IP of the destination PC (e.g. 192.168.0.2):
+
+    C:\splishsplash> splish.exe 192.168.0.2 
+
+See the wiki for more details.

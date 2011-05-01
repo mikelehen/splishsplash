@@ -5,3 +5,4 @@ ipch/
 *.opensdf
 *.log
 *.vcxproj.user
+*.suo
