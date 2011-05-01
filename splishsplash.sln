@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "splish", "splish\splish.vcxproj", "{A51B3046-8E96-45EB-ABD5-6C8495B3D0C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "splash", "splash\splash.vcxproj", "{9F192031-2091-457E-84C4-3402146B8635}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A51B3046-8E96-45EB-ABD5-6C8495B3D0C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A51B3046-8E96-45EB-ABD5-6C8495B3D0C5}.Debug|Win32.Build.0 = Debug|Win32
+		{A51B3046-8E96-45EB-ABD5-6C8495B3D0C5}.Release|Win32.ActiveCfg = Release|Win32
+		{A51B3046-8E96-45EB-ABD5-6C8495B3D0C5}.Release|Win32.Build.0 = Release|Win32
+		{9F192031-2091-457E-84C4-3402146B8635}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F192031-2091-457E-84C4-3402146B8635}.Debug|Win32.Build.0 = Debug|Win32
+		{9F192031-2091-457E-84C4-3402146B8635}.Release|Win32.ActiveCfg = Release|Win32
+		{9F192031-2091-457E-84C4-3402146B8635}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
