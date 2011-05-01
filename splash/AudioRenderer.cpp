@@ -35,7 +35,7 @@ HRESULT AudioRenderer::Initialize(void)
         fprintf(stderr, "Unexpected wave format: %d bits per sample, %d channels, %d samples / sec.\n", 
             _pWaveFormat->wBitsPerSample, _pWaveFormat->nChannels, _pWaveFormat->nSamplesPerSec);
         fprintf(stderr, "\nYou need to change the default sample rate in Windows.\n");
-        fprintf(stderr, "See: http://splishsplash.codeplex.com/wikipage?title=Configuring%%20Windows%%20Default%%20Audio%%20Format\n\n");
+        fprintf(stderr, "See: https://github.com/mikelehen/splishsplash/wiki/Configuring-windows-default-audio-format\n\n");
         hr = E_FAIL;
         goto Error;
     }
